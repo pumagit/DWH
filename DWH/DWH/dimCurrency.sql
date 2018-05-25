@@ -1,4 +1,6 @@
 ﻿CREATE TABLE [dbo].[dimCurrency]
 (
-	[CurrencyKey] INT NOT NULL PRIMARY KEY
+	[PersonID] INT NOT NULL PRIMARY KEY, 
+    [PersonFirstName] VARCHAR(50) NULL, 
+    [PersonLastName] VARCHAR(50) NULL
 )
